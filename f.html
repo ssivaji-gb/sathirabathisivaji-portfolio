@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sathirabathi Sivaji</title>
+  <link rel="stylesheet" href="contact.css" />
+  <style>
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+  color: #007bff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #007bff;
+} */
+
+/* Contact Section */
+.contact-section {
+  background: #f8f9fc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.contact-container {
+  display: flex;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  gap: 50px;
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Left Info */
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #0056d6;
+  text-decoration: underline;
+}
+
+/* Right Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056d6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <!-- <nav class="navbar">
+    <h2 class="logo">Sathirabathi Sivaji</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav> -->
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or just a friendly chat 😊</p>
+
+        <div class="info">
+          <p><strong>Email:</strong> <a href="mailto:sathirabathi@gmail.com">sathirabathi@gmail.com</a></p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Location:</strong> Chennai, India</p>
+        </div>
+
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

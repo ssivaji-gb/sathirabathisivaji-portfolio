@@ -1,126 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sivaji.com</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-<style>
-  Reset
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  <style>
 
-/* Body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #F8FAFB;
-  color: #0F172A;
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 0;
-  margin: 0 ;
-}
 
-/* Navbar */
-.header {
-  background: #fff;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0px;
-}
-
-a  {
-    text-decoration: none;
-}
-.logo {
-  color: #2563EB;
-  
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-list {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-.nav-list a {
-  text-decoration: none;
-  color: #0F172A;
-  font-weight: 500;
-}
-.nav-list a:hover {
-  color: #2563EB;
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 6rem 1rem;
-}
-.hero-title {
-  font-size: 36px;
-  margin-bottom: 0.5rem;
-}
-.hero-tagline {
-  font-size: 24px;
-  color: #2563EB;
-  margin-bottom: 1rem;
-}
-.hero-desc {
-  text-justify: auto;
-  font-size: 16px;
-  color: #6B7280;
-  margin-bottom: 2rem;
-}
-.highlight {
-  color: #2563EB;
-}
-
-/* Buttons */
-.btn {
-  background: #2563EB;
-  color: #fff;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  margin: 0 0.5rem;
-  display: inline-block;
-}
-.btn:hover {
-  background: #1D4ED8;
-}
-.btn-outline {
-  background: transparent;
-  border: 2px solid #2563EB;
-  color: #2563EB;
-}
-.btn-outline:hover {
-  background: #2563EB;
-  color: #fff;
-}
-
-</style>
+  </style>
 </head>
-<body  style="background-color: #F8FAFB ;" >
+
+<body style="background-color: #F8FAFB ;">
 
   <!-- Header/Navbar -->
-  <header class="header">
+  <header class="header" id="index.html">
     <nav class="navbar">
-      <a href="index.html"><h2 class="logo">Sathirabathi Sivaji</h2></a>
+      <a href="index.html">
+        <h2 class="logo">Sathirabathi Sivaji</h2>
+      </a>
       <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#index.html">Home</a></li>
+        <li><a href="#about.html">About</a></li>
+        <li><a href="#projects.html">Projects</a></li>
         <li><a href="achievement.html">Achievement</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -128,20 +36,249 @@ a  {
   <!-- Intro Section -->
   <section class="hero">
     <div class="container">
-      <h1 class="hero-title">Hey there, I’m <span class="highlight">Sathirabathi Sivaji</span></h1>
+      <h1 class="hero-title">Hey, I’m <span class="highlight">Sathirabathi Sivaji</span></h1>
       <h2 class="hero-tagline">Fullstack Developer | Turning Logic Into Life</h2>
       <p class="hero-desc">
-      I’m a passionate Fullstack Developer who loves turning ideas into real-world applications. <br>
-Skilled in HTML, CSS, JavaScript, React, and Python, I enjoy logic-building and solving complex <br> problems with simple solutions.
-As a fast learner, I adapt quickly and bring creativity into every project I build.
+        I’m a passionate Fullstack Developer who loves turning ideas into real-world applications. <br>
+        Skilled in HTML, CSS, JavaScript, React, and Python, I enjoy logic-building and solving complex <br> problems
+        with simple solutions.
+        As a fast learner, I adapt quickly and bring creativity into every project I build.
       </p>
-      <a href="projects.html" class="btn">View Projects</a>
-      <a href="contact.html" class="btn btn-outline">Contact Me</a>
+      <a href="#projects.html" class="btn">View Projects</a>
+      <a href="#contact.html" class="btn btn-outline">Contact Me</a>
     </div>
   </section>
 
+  <!-- about-section -->
+
+  <div class="about-section" id="about.html">
+    <div class="about-container">
+      <div class="my-photo">
+        <img src="Assets/myp.jpg" alt="sivaji">
+      </div>
+      <div class="about-content">
+        <h2 class="about-h2">About Me</h2>
+        <p>
+          I’m <strong class="about-strong">Sathirabathi Sivaji</strong>, a Fullstack Developer with a background in
+          <strong class="about-strong">Electronics and Communication Engineering</strong> from
+          <strong class="about-strong">Central Polytechnic College, Chennai</strong>.
+          During my diploma, I discovered my passion for technology and problem-solving,
+          which naturally led me into the world of coding. Through campus placement,
+          I joined <strong class="about-strong">DCKAP Palli</strong>, where I started shaping my career in software
+          development.I enjoy <strong class="about-strong">building end-to-end web applications</strong>,
+          bringing together clean frontends and strong backend logic.Outside of coding, I love reading books and
+          listening to music.
+          My ultimate goal is to grow as a <strong class="about-strong">Fullstack Developer</strong>
+          and contribute to impactful projects that solve real-world problems.
+        </p>
+        <a href="Assets/sivaji.pdf" target="_blank" class="download-btn btn btn-outline"
+          download="sathirabathisivajir.pdf">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- projects-cards -->
+
+  <section class="projects-section" id="projects.html">
+    <div class="project-container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+
+
+        <div class="project-card">
+          <div class="video-container">
+            <video class="responsive-video" controls muted autoplay loop poster="placeholder.jpg">
+              <source src="Assets/E-commerce-site.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-description">
+            <div class="project-content">
+              <h3>E-commerce site</h3>
+              <p>Responsive Pothys e-commerce clone with HTML & CSS animations.</p>
+              <p><strong>Tech:</strong> HTML, CSS</p>
+            </div>
+            <div class="btn-flex">
+              <a href="https://github.com/ssivaji-gb/Pothys-Site-Replicate" target="_blank"
+                class="btn btn-outline">GitHub</a>
+              <a href="https://ssivaji-gb.github.io/Pothys-Site-Replicate/" target="_blank" class="btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+      
+
+      <div class="project-card">
+        <div class="video-container">
+          <video class="responsive-video" controls muted autoplay loop poster="placeholder.jpg">
+            <source src="Assets/cafe-site.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="project-description">
+            <div class="project-content">
+        <h3>Shop site</h3>
+        <p>A responsive café mini-site UI clone with HTML & CSS, featuring animations to showcase my practice and
+          design skills.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+        </div>
+        <div class="btn-flex">
+          <a href="https://github.com/ssivaji-gb/Sunny-Cafe-web-" target="_blank" class="btn btn-outline">GitHub</a>
+          <a href="https://ssivaji-gb.github.io/Sunny-Cafe-web-/" target="_blank" class="btn">Live Demo</a>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="project-card">
+        <div class="video-container">
+          <video class="responsive-video" controls muted autoplay loop poster="placeholder.jpg">
+            <source src="Assets/manu-pro.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="project-description">
+            <div class="project-content">
+        <h3>Manufacturing Site</h3>
+        <p>A responsive manufacturing site UI clone built with HTML & CSS, featuring smooth animations for practice
+          and showcase.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+        </div>
+        <div class="btn-flex">
+          <a href="https://github.com/ssivaji-gb/manufacture-task.git" target="_blank"
+            class="btn btn-outline">GitHub</a>
+          <a href="https://ssivaji-gb.github.io/manufacture-task/" target="_blank" class="btn">Live Demo</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="video-container">
+          <video class="responsive-video" controls muted autoplay loop poster="placeholder.jpg">
+            <source src="Assets/port-site.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="project-description">
+            <div class="project-content">
+        <h3>Responsive Website</h3>
+        <p>A clean and responsive portfolio website built with HTML & CSS to showcase my learning journey.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+        </div>
+        <div class="btn-flex">
+          <a href="https://github.com/ssivaji-gb/website" target="_blank" class="btn btn-outline">GitHub</a>
+          <a href="https://ssivaji-gb.github.io/website/" target="_blank" class="btn">Live Demo</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact.html">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or just a friendly chat 😊</p>
+
+        <div class="info">
+          <p><strong>Email:</strong> <a href="mailto:sathirabathisivajir@gmail.com">sathirabathisivajir@gmail.com</a>
+          </p>
+          <p><strong>Phone:</strong> +91 9385610311</p>
+          <p><strong>Location:</strong> Chennai, India</p>
+        </div>
+
+        <div class="contact-social-links">
+          <a href="https://www.instagram.com/sathirabathisivaji?utm_source=qr&igsh=ajkyeTMzN3F4cHJ2" target="_blank"
+            aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- X (Twitter) -->
+
+          <a href="https://x.com/sathirabathi?t=AufNiw7D9TM3yhDh2LtMug&s=09" target="_blank" aria-label="Twitter">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/share/1DU1isnLGq/" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Email -->
+          <a href="mailto:sathirabathisivajir@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/sathirabathi-sivaji-rathinasabapathi-410406383" target="_blank"
+            aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/ssivaji-gb" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- footer-section -->
+  <footer>
+
+
+    <!-- <hr> -->
+    <p class="copyright">© 2025 Sathirabathi Sivaji | All Rights Reserved</p>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/sathirabathisivaji?utm_source=qr&igsh=ajkyeTMzN3F4cHJ2" target="_blank"
+        aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <!-- X (Twitter) -->
+
+      <a href="https://x.com/sathirabathi?t=AufNiw7D9TM3yhDh2LtMug&s=09" target="_blank" aria-label="Twitter">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/share/1DU1isnLGq/" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- Email -->
+      <a href="mailto:sathirabathisivajir@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/sathirabathi-sivaji-rathinasabapathi-410406383" target="_blank"
+        aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/ssivaji-gb" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+
 </body>
+
 </html>
-
-
-

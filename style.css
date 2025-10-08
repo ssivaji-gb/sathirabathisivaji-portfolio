@@ -500,7 +500,7 @@ a  {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0px;
-    padding: 8px 16px;
+    padding: 4px 8px;
     z-index: 9;
 }
 
@@ -523,6 +523,8 @@ a  {
         display: flex;
         flex-wrap: wrap;
         color: #0F172A;
+        margin: 0;
+        padding: 0;
         gap: 10px;
 }
 ul{
@@ -703,13 +705,13 @@ a  {
   align-items: center;
 }
 .nav-list {
-  list-style: none;
+        list-style: none;
         display: flex;
         flex-wrap: wrap;
         color: #0F172A;
         padding: 0;
         margin: 0;
-        /* gap: 10px; */
+        /* /* gap: 10px; */
 }
 ul{
   margin: 0;

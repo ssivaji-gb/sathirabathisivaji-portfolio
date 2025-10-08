@@ -87,7 +87,7 @@ a  {
 }
 
 /* Buttons */
-.btn {
+.btn,.fa-download {
   background: #2563EB;
   color: #fff;
   padding: 0.6rem 1.2rem;
@@ -170,6 +170,10 @@ a  {
 
 .about-strong{
    color: #2563EB;
+}
+
+.fa-download{
+  color:#2563EB;
 }
 
 /* projects-page */
